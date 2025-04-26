@@ -20,7 +20,7 @@ def message_probability(
             break
 
     if has_required_words or single_response:
-        return int(percentage)
+        return int(percentage * 100)
     else:
         return 0
 
