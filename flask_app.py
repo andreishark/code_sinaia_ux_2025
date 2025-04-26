@@ -1,10 +1,10 @@
-from flask import Flask
+from flask import Flask, request
 import grpc
 
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route("/")
 def hello_world():
     return "Hello, world!"
 
