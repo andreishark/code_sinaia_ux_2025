@@ -2,4 +2,4 @@
 
 . ./activate_venv.sh
 
-python ./chatbot/chatbot.py
+python ./chatbot_app.py
