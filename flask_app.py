@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request
 import grpc
 from chatbot.chatbot import get_response
 from models.chatbot_response import ChatbotResponse
